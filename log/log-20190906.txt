@@ -1,0 +1,40 @@
+623  [main] INFO  c.p.s.PickyourtrailsApplication - Starting PickyourtrailsApplication on Natrajs-Air-3.Dlink with PID 8524 (/Users/nichesoft25/Documents/workspace-spring-tool-suite-4-4.3.2.RELEASE/pickyourtrails/bin/main started by nichesoft25 in /Users/nichesoft25/Documents/workspace-spring-tool-suite-4-4.3.2.RELEASE/pickyourtrails)
+626  [main] INFO  c.p.s.PickyourtrailsApplication - No active profile set, falling back to default profiles: default
+1658 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$77c4f496] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+1695 [main] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+1979 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2001 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2174 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2174 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1483 ms
+2449 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2633 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2661 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2667 [main] INFO  c.p.s.PickyourtrailsApplication - Started PickyourtrailsApplication in 2.421 seconds (JVM running for 3.28)
+42589 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+42589 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+42597 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+139318 [RMI TCP Connection(15)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+139324 [RMI TCP Connection(15)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+661  [main] INFO  c.p.s.PickyourtrailsApplication - Starting PickyourtrailsApplication on Natrajs-Air-3.Dlink with PID 8618 (/Users/nichesoft25/Documents/workspace-spring-tool-suite-4-4.3.2.RELEASE/pickyourtrails/bin/main started by nichesoft25 in /Users/nichesoft25/Documents/workspace-spring-tool-suite-4-4.3.2.RELEASE/pickyourtrails)
+664  [main] INFO  c.p.s.PickyourtrailsApplication - No active profile set, falling back to default profiles: default
+1521 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$766036e3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+1554 [main] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+1787 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+1803 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+1817 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+1818 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+1922 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+1923 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1207 ms
+2199 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2382 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2410 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2415 [main] INFO  c.p.s.PickyourtrailsApplication - Started PickyourtrailsApplication in 2.085 seconds (JVM running for 3.149)
+10029 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10030 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+10041 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+10061 [http-nio-8080-exec-1] INFO  c.p.s.controller.BasicController - getSampleContent service called
+82944 [http-nio-8080-exec-5] INFO  c.p.s.controller.BasicController - sampleRequest service called
+54239126 [RMI TCP Connection(420)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+54239163 [RMI TCP Connection(420)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'

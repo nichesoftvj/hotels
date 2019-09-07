@@ -1,0 +1,7 @@
+{
+  "interfaceOnly":true,
+  "library": "spring-mvc",
+  "modelPackage": "expedia.model",
+  "apiPackage": "expedia.api",
+  "invokerPackage": "expedia"
+}
