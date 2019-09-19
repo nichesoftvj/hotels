@@ -6,9 +6,9 @@ import org.springframework.web.client.RestTemplate;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.pyt.supplier.configuration.SignatureGenerator;
+import com.pyt.supplier.model.request.Request;
 import com.pyt.supplier.model.response.Response;
 
-import expedia.model.CreateItineraryRequest;
 import lombok.extern.slf4j.Slf4j;
 
 @Component
@@ -24,10 +24,12 @@ public class BookingDao {
 	@Autowired
 	ObjectMapper objectMapper;
 
-	public Response booking(String hotelId, CreateItineraryRequest createRequest) {
+	public Response booking(String hotelId, Request createRequest) {
 
 		String signature = signatureGenerator.getSignature();
 		System.out.println(signature);
+		// map pyt request to Expedia request body
+
 		// send booking details to Exp
 
 		// extract token from price-check (might need to hit expedia for getting price

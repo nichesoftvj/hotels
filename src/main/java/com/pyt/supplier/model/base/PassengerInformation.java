@@ -15,7 +15,7 @@ public class PassengerInformation {
 
 	@JsonProperty("leadPassenger")
 	public LeadPassenger leadPassenger;
-	@JsonProperty("otherPassenger")
+	@JsonProperty("otherPassengers")
 	public List<OtherPassenger> otherPassenger = null;
 
 }
